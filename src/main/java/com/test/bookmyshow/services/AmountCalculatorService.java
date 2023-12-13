@@ -19,6 +19,7 @@ public class AmountCalculatorService {
         this.showSeatTypeRepository = showSeatTypeRepository;
     }
 
+    
     public int calculateAmount(List<ShowSeat> showSeats, Show show) {
 
         // Get all the SeatTypes for the given show
