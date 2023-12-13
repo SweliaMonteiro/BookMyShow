@@ -19,6 +19,7 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
+    
     public User signUp(String email, String password) {
         // If user already exists then throw error as need not create new user account
         Optional<User> optionalUser = userRepository.findByEmail(email);
