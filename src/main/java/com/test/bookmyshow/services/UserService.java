@@ -40,6 +40,7 @@ public class UserService {
 
 
     public User logIn(String email, String password) {
+        // Authenticate the User by verifying the email and password
         // If user does not exist then throw error
         Optional<User> optionalUser = userRepository.findByEmail(email);
         if(optionalUser.isEmpty()) {
@@ -47,7 +48,7 @@ public class UserService {
         }
 
         User user = optionalUser.get();
-        // Authenticate the User - Check if the password entered is correct
+        // Check if the password entered is correct
         BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
         if(bCryptPasswordEncoder.matches(password, user.getPassword())) {
             return user;
