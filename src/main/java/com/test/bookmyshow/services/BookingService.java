@@ -39,6 +39,7 @@ public class BookingService {
         this.amountCalculatorService = amountCalculatorService;
     }
 
+    
     @Transactional(isolation = Isolation.SERIALIZABLE)
     public Booking bookMovie(Long userId, Long showId, List<Long> showSeatIds) {
         // Get User using userId from DB
