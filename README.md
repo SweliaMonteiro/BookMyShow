@@ -5,11 +5,11 @@
 As a part of book my show system, you need to allow users to LogIn or SignUp on the platform. You also need to expose a functionality using which theatre admins can create a show. Once this show has been created, users will be able to book tickets for this show on the platform.
 
 ## Requirements
-### User SignUp or LogIn
+#### User SignUp or LogIn
 1. Allow a user to SignUp to the platform. Encrypt the password using BCrypt encryption technique.
 2. For LogIn, authenticate the user by verifying the email and password.
 
-### Book a Ticket
+#### Book a Ticket
 1. The request to create a booking will contain the following things:
    * User ID - The ID of the user who wants to book a movie ticket.
    * Show ID - The ID of the show to be booked.
@@ -19,7 +19,7 @@ As a part of book my show system, you need to allow users to LogIn or SignUp on 
 4. The user should be able to book multiple seats in a single booking.
 5. The user should not be able to book a seat that is already booked.
 
-### Create a Show
+#### Create a Show
 1. The request to create a show will contain the following things:
     * Movie ID - The ID of the movie which is being shown.
     * User ID - The ID of the user who is creating the show.
