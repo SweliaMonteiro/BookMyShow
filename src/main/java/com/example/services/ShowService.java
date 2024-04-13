@@ -1,10 +1,6 @@
 package com.example.services;
 
 import java.util.*;
-
-import com.example.bookmyshow.exceptions.*;
-import com.example.bookmyshow.models.*;
-import com.example.bookmyshow.repositories.*;
 import com.example.enums.Feature;
 import com.example.enums.SeatStatus;
 import com.example.enums.SeatType;
@@ -12,12 +8,8 @@ import com.example.enums.UserType;
 import com.example.exceptions.*;
 import com.example.models.*;
 import com.example.repositories.*;
-import com.test.bookmyshow.enums.*;
-import com.test.bookmyshow.models.*;
-import com.test.bookmyshow.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.util.Pair;
-import com.test.bookmyshow.exceptions.*;
 import org.springframework.stereotype.Service;
 
 

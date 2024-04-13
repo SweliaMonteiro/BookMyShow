@@ -4,7 +4,6 @@ import com.example.exceptions.InvalidPasswordException;
 import com.example.exceptions.UserExistsException;
 import com.example.exceptions.UserNotFoundException;
 import com.example.repositories.UserRepository;
-import com.test.bookmyshow.exceptions.*;
 import com.example.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

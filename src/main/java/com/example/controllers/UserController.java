@@ -4,7 +4,6 @@ import com.example.dtos.LogInResponseDTO;
 import com.example.dtos.LogInRequestDTO;
 import com.example.dtos.SignUpRequestDTO;
 import com.example.dtos.SignUpResponseDTO;
-import com.test.bookmyshow.dtos.*;
 import com.example.enums.ResponseStatus;
 import com.example.models.User;
 import com.example.services.UserService;
